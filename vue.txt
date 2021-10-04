@@ -1,0 +1,37 @@
+v-if 
+v-else  it is present 
+e-else-if
+v-show -- if false it makes display none small data manipulation  
+v-for 
+v-slot
+v-text - in replace of {{}} v-text is used 
+v-html
+v-on
+v-bind 
+v-model
+v-pre
+v-cloak
+v-once 
+v-is 
+
+
+
+  <h1> {{ title.toUpperCase()  }} {{number+20}}</h1>
+  <p> Something else </p>
+  <div v-if="isShowing" v-html="renderhtml"></div> 
+  <h3 v-else> this is v-else </h3>
+
+  <p v-text="count"></p>
+  <h5 v-once> {{ count}}</h5>
+  <ul>
+    <li v-for="dcHero  in dcHeros " :key="dcHero"  >
+      {{dcHero.name}}
+    </li>
+  </ul>
+  <input  v-bind:value="newHero" >
+  <input  v-model="newHero" />
+
+
+  <input  :[attribute]="newHero" >
+ <button v-bind="isActive"> Add </button>
+  
