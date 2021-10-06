@@ -8,7 +8,7 @@ v-text - in replace of {{}} v-text is used
 v-html
 v-on
 v-bind 
-v-model
+v-model v-model.trim v-model.
 v-pre
 v-cloak
 v-once 
